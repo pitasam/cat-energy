@@ -1,0 +1,37 @@
+.logo {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+
+  align-self: flex-start;
+}
+
+.logo__pic {
+  margin-right: 56px;
+  width: 34px;
+  height: 40px;
+}
+
+.logo__text {
+  width: 104px;
+  margin-top: 9px;
+}
+
+@media (min-width: $tablet-width) {
+  .logo__pic {
+    margin-right: 0;
+    width: 174px;
+    height: 52px;
+  }
+
+  .logo__text {
+    display: none;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .logo__pic {
+    width: 202px;
+    height: auto;
+  }
+}

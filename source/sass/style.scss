@@ -1,0 +1,49 @@
+//colors
+$base-color: #68b738;
+$bg-dark: #f2f2f2;
+
+$gray-light: #f2f2f2;
+
+$font-text: #444444;
+$font-title: #111111;
+
+$light: #ffffff;
+
+//size
+$r-min-circle-radio: 12px;
+
+//container
+$pad-cont-mob: 20px;
+
+//media size
+$tablet-width: 768px;
+$desktop-width: 1440px;
+
+//retina
+$retina-dpi: 144dpi;
+$retina-dppx: 1.5dppx;
+
+//settings
+@import "core/fonts";
+@import "core/layout";
+
+//blocks
+@import "blocks/header";
+@import "blocks/logo";
+@import "blocks/menu";
+@import "blocks/cat-energy-banner";
+@import "blocks/category";
+@import "blocks/advantages";
+@import "blocks/catalog";
+@import "blocks/additional-prod";
+@import "blocks/program";
+@import "blocks/form-program";
+@import "blocks/media";
+@import "blocks/cat-slider";
+@import "blocks/example";
+@import "blocks/developers";
+@import "blocks/social";
+@import "blocks/footer";
+@import "blocks/map";
+
+

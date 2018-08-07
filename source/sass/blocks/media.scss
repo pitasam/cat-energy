@@ -1,0 +1,16 @@
+
+
+@media (min-width: $tablet-width) {
+  .container {
+    width: 708px;
+  }
+  .program__container {
+    width: 630px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .container {
+    width: 1220px;
+  }
+}

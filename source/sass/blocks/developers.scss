@@ -1,0 +1,56 @@
+.developers {
+  text-decoration: none;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+
+  color: $font-text;
+
+  &:hover, &:active {
+    .developers__icon-logo {
+      fill: $base-color;
+    }
+  }
+  
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.developers__name {
+  margin-top: -3px;
+
+  font-size: 15px;
+  letter-spacing: 0.4px;
+}
+
+.developers__icon-logo {
+  width: 29px;
+  height: 35px;
+
+  fill: #666666;
+
+
+}
+@media (min-width: $tablet-width) {
+  .developers {
+    margin: 0;
+    margin-left: auto;
+    margin-top: 10px;
+    width: auto;
+  }
+
+  .developers__name {
+    margin-right: 22px;
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  .developers {
+    margin-top: 0;
+  }
+}
